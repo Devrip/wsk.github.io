@@ -1,3 +1,5 @@
+
+
 header{
 
   width: auto;
@@ -113,52 +115,5 @@ body{
 background-color: grey;
 margin-top: auto;
 width:auto;
-
-}
-
-nav{
-position:absolute;
-top: 15%;
-left: 25%;
-
-}
-
-ul{
-  padding-top: 200px;
-  padding-bottom: 30px;
-
-
-
-}
-li{
-display: inline;
-padding: 0px 150px 0px 150px;
-
-
-}
-
-#butt1 {
-background-color: black;
-border-radius: 50px;
-font-size: 20px;
-font-family: "Sedgwick Ave Display";
-color:#E13126;
-width: 120px;
-position: absolute;
-line-height: 35px;
-
-
-}
-
-#butt2 {
-background-color: black;
-border-radius: 50px;
-font-size: 20px;
-font-family: "Sedgwick Ave Display";
-color:#E13126;
-width: 120px;
-position: absolute;
-line-height: 35px;
-
 
 }
