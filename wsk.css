@@ -1,0 +1,165 @@
+
+
+header{
+
+  width: auto;
+  height:auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  background: linear-gradient(bottom, rgba(255,255,255,.4), rgba(0,0,0,1));
+  background: -webkit-linear-gradient(bottom, rgba(255,255,255,.4), rgba(0,0,0,1));
+  background: -moz-linear-gradient(bottom, rgba(255,255,255,.4), rgba(0,0,0,1));
+  margin-top: -20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: -200px;
+  border: red solid 2px;
+  border-top: black solid 15px;
+  border-left: black solid 3px;
+  border-right: black solid 3px;
+  box-shadow: 1px 10px 19px black;
+
+
+}
+
+
+
+
+
+
+
+@keyframes dance {
+  from {
+    left: 1800px;
+    }
+  }
+  @-webkit-keyframes dance {
+  from {
+    left: 1800px;
+    }
+  }
+  @-moz-keyframes dance {
+  from {
+    left: 1800px;
+    }
+  }
+
+img {
+  animation: dance 5s 1;
+  -webkit-animation: dance 5s 1;
+  -moz-animation: dance 5s 1;
+
+
+  width: 19%;
+  position: relative;
+  top: -29px;
+  margin-top: 11.8px;
+  left:0px;
+  margin-bottom: -36px;
+}
+/* 1s= time it take to complete animation, 1 amount of times animation is performed */
+#wsk {
+  animation: dance 5s 1;
+  -webkit-animation: dance 5s 1;
+  -moz-animation: dance 5s 1;
+  position: absolute;
+  top: 29px;
+  left: 13px;
+  width: 19%;
+  }
+
+  }
+  h1{
+
+  color: red;
+  font-size: 64px;
+  text-shadow: 5px 5px 5px rgba(250, 250, 250, .5);
+  text-align: center;
+  position: justify;
+
+  z-index: 2;
+
+  }
+
+span{
+  font-family: 'Sedgwick Ave Display';
+  font-style: bold;
+  border: solid 9px;
+  border-color: transparent #263645 transparent #263645;
+  border-radius: 30px;
+  border-top-right-radius: 75px;
+  border-top-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 75px;
+  box-shadow: -13px 4px 19px #E13126;
+  background-image: url("https://cmkt-image-prd.freetls.fastly.net/0.1.0/ps/558881/910/606/m2/fpnw/wm1/kdmd5twumfn9cdqsds1iulhhszmvj9stlwj7qwz52h3dk58l4lkeosqzmkfd7tz0-.jpg?1436374475&s=f136d21a0a02c0ce7f678a87c26c3abd");
+  background-size: contain;
+  padding-top: 5px;
+  margin: auto;
+  display:inline-flex;
+
+  }
+
+  h1{
+
+  color: black;
+  font-size: 64px;
+  text-shadow: 1px 1px 5px rgba(255, 240, 240, .8);
+  text-align: center;
+  position: justify;
+
+  z-index: 2;
+  font-style: normal;
+  }
+
+body{
+background-color: grey;
+margin-top: auto;
+width:auto;
+
+}
+
+nav{
+position:relative;
+border-bottom: black solid 10px;
+
+}
+
+ul{
+padding-top: 200px;
+padding-bottom: 30px;
+padding-left: 270px;
+
+
+}
+li{
+display: inline;
+padding: 0px 150px 0px 150px;
+
+
+}
+
+#butt1 {
+background-color: black;
+border-radius: 50px;
+font-size: 20px;
+font-family: "Sedgwick Ave Display";
+color:#E13126;
+width: 120px;
+position: absolute;
+line-height: 35px;
+
+
+}
+
+#butt2 {
+background-color: black;
+border-radius: 50px;
+font-size: 20px;
+font-family: "Sedgwick Ave Display";
+color:#E13126;
+width: 120px;
+position: absolute;
+line-height: 35px;
+
+
+}
