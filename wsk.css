@@ -1,5 +1,3 @@
-
-
 header{
 
   width: auto;
@@ -119,15 +117,16 @@ width:auto;
 }
 
 nav{
-position:relative;
-border-bottom: black solid 10px;
+position:absolute;
+top: 15%;
+left: 25%;
 
 }
 
 ul{
-padding-top: 200px;
-padding-bottom: 30px;
-padding-left: 320px;
+  padding-top: 200px;
+  padding-bottom: 30px;
+
 
 
 }
